@@ -1,4 +1,3 @@
-import React from 'react';
 import Layout from '../../../components/Layout';
 import Lock from '../../../assets/Auth/Lock.svg';
 import Mobile from '../../../assets/Auth/Mobile.svg';
@@ -11,7 +10,6 @@ import Cookie from 'cookie-universal';
 import { SIGNUP } from '../../../Api/Api';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Loader from '../../../components/Loader';
-import { showError } from '../../../libs/ReactToastify';
 import logo from '../../../assets/Auth/gif gmame.gif';
 import CustomCheckboxField from '../../../components/CheckBox';
 import { v4 as uuidv4 } from 'uuid'; // استيراد مكتبة uuid
