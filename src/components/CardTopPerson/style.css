@@ -1,0 +1,59 @@
+.card {
+  width: 309px;
+  height: 75px;
+  border-radius: 12px;
+  border: 1px solid #ffa412;
+
+  background: #fff;
+
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+}
+.num {
+  width: 20px;
+  height: 32px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #ffa015;
+  margin-left: 10px;
+  text-align: center;
+  font-family: 'DIN Next LT Arabic';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+/* لإخفاء شريط التمرير على جميع المتصفحات */
+.h-80 {
+  height: 20rem;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+/* لـ Webkit (كروم، سفاري، إلخ) */
+.overflow-y-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* لـ IE و Edge */
+.overflow-y-scroll {
+  -ms-overflow-style: none;  /* لإخفاء شريط التمرير في إنترنت إكسبلورر */
+}
+
+/* لـ Firefox */
+.overflow-y-scroll {
+  scrollbar-width: none;  /* لإخفاء شريط التمرير في فايرفوكس */
+}
+
+.cardToast {
+  width: 250px;
+  height: 75px;
+  border-radius: 12px;
+  border: 1px solid #ffa412;
+
+  background: #fff;
+
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+}

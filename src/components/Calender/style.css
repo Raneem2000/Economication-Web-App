@@ -1,0 +1,81 @@
+/* إعدادات التقويم العامة */
+
+/* ضبط عرض الأيام */
+.custom-calendar .react-calendar__month-view__weekdays {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.custom-calendar .react-calendar__month-view__weekdays__weekday {
+  flex: 1;
+  padding: 5px 0;
+  border-bottom: none; /* إزالة الخطوط تحت كل يوم */
+  color: var(--Schemes-Secondary, #625b71);
+  text-align: center;
+  font-size: 8.19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 143%; /* 11.712px */
+  letter-spacing: 0.147px;
+  padding: 10px 0; /* ضبط padding الثابت */
+  border-top: 0.8px solid #e0e0e0;
+}
+
+/* تخصيص الأزرار والتنقل */
+.custom-calendar .react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.custom-calendar .react-calendar__navigation__label {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.custom-calendar .react-calendar__navigation__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* إخفاء السهم المزدوج */
+.custom-calendar .react-calendar__navigation__arrow[aria-label*='Jump'] {
+  display: none;
+}
+
+/* ضبط عرض الأيام */
+.custom-calendar .react-calendar__tile {
+  color: var(--Black, var(--Schemes-Scrim, #000));
+  text-align: center;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: Manrope;
+  font-size: 9.36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 14.04px */
+  letter-spacing: 0.157px;
+  padding: 5px;
+}
+.end-border {
+  border-bottom: 0.8px solid #e0e0e0;
+  margin-top: 6px;
+}
+
+.custom-calendar .react-calendar__tile.custom-selected-date {
+  background: var(--Light-Purple, rgba(236, 185, 249, 0.5));
+  border-radius: 57.915px;
+  border: 0.585px solid #e9b3d2;
+  color: #922b8f;
+  border-radius: 50%;
+  width: 28.08px;
+  height: 28.08px;
+}

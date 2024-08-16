@@ -1,0 +1,27 @@
+.layout {
+  color: var(--Schemes-On-Primary, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+  width: 254px;
+  height: 696px;
+  flex-shrink: 0;
+  background: var(--material-theme-key-colors-primary, #5c2d91);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+}
+.active {
+  background: var(--g, linear-gradient(250deg, #ffa015 3.3%, #ffbf00 74.97%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.top-right-corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 16px; /* Adjust margin as needed */
+  }
+  
